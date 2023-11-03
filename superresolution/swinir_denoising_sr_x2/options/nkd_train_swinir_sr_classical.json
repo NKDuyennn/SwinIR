@@ -22,8 +22,8 @@
       "train": {
         "name": "train_dataset",
         "dataset_type": "sr",
-        "dataroot_H": "trainsets/gt_train",
-        "dataroot_L": "trainsets/lr_train",
+        "dataroot_H": "/kaggle/input/dataset/data/trainsets/gt_train",
+        "dataroot_L": "/kaggle/input/dataset/data/trainsets/lr_train",
         "H_size": 256,
         "dataloader_shuffle": true,
         "dataloader_num_workers": 12,
@@ -35,8 +35,8 @@
       "test": {
         "name": "test_dataset",
         "dataset_type": "sr",
-        "dataroot_H": "testsets/Set5/GTmod12",
-        "dataroot_L": "testsets/Set5/LRx2",
+        "dataroot_H": "/kaggle/input/dataset/data/testsets/Set5/GTmod12",
+        "dataroot_L": "/kaggle/input/dataset/data/testsets/Set5/LRx2",
         "phase": "test",
         "scale": 2,
         "n_channels": 1
