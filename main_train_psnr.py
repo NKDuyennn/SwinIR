@@ -125,7 +125,7 @@ def main(json_path='/kaggle/working/SwinIR/superresolution/swinir_denoising_sr_x
                 train_loader = DataLoader(train_set,
                                           batch_size=dataset_opt['dataloader_batch_size']//opt['num_gpu'],
                                           shuffle=False,
-                                          num_workers=dataset_opt['dataloader_num_workers']//opt['num_gpu'],
+                                          num_workers=4,
                                           drop_last=True,
                                           pin_memory=True,
                                           sampler=train_sampler)
@@ -133,7 +133,7 @@ def main(json_path='/kaggle/working/SwinIR/superresolution/swinir_denoising_sr_x
                 train_loader = DataLoader(train_set,
                                           batch_size=dataset_opt['dataloader_batch_size'],
                                           shuffle=dataset_opt['dataloader_shuffle'],
-                                          num_workers=dataset_opt['dataloader_num_workers'],
+                                          num_workers=4,
                                           drop_last=True,
                                           pin_memory=True)
 
