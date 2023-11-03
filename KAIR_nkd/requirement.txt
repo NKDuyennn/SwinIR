@@ -1,7 +1,0 @@
-opencv-python
-scikit-image
-pillow
-torchvision
-hdf5storage
-ninja
-timm
