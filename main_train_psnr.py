@@ -30,7 +30,7 @@ from sklearn.model_selection import learning_curve
 '''
 
 
-def main(json_path='options/swinir/train_swinir_denoising_gray.json'):
+def main(json_path='/kaggle/working/SwinIR/superresolution/swinir_denoising_sr_x2/options/nkd_train_swinir_sr_classical.json'):
 
     '''
     # ----------------------------------------
