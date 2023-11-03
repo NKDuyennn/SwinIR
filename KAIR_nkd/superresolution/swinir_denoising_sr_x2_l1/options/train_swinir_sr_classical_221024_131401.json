@@ -1,0 +1,114 @@
+{
+  "task": "swinir_denoising_sr_x2_l1",
+  "model": "plain",
+  "gpu_ids": [
+    0
+  ],
+  "dist": false,
+  "scale": 2,
+  "n_channels": 1,
+  "path": {
+    "root": "superresolution",
+    "pretrained_netG": null,
+    "pretrained_netE": null,
+    "task": "superresolution\\swinir_denoising_sr_x2_l1",
+    "log": "superresolution\\swinir_denoising_sr_x2_l1",
+    "options": "superresolution\\swinir_denoising_sr_x2_l1\\options",
+    "models": "superresolution\\swinir_denoising_sr_x2_l1\\models",
+    "images": "superresolution\\swinir_denoising_sr_x2_l1\\images",
+    "pretrained_optimizerG": null
+  },
+  "datasets": {
+    "train": {
+      "name": "train_dataset",
+      "dataset_type": "sr",
+      "dataroot_H": "trainsets/trainH",
+      "dataroot_L": "trainsets/X4_lq_x2_lr",
+      "H_size": 96,
+      "dataloader_shuffle": true,
+      "dataloader_num_workers": 12,
+      "dataloader_batch_size": 1,
+      "phase": "train",
+      "scale": 2,
+      "n_channels": 1
+    },
+    "test": {
+      "name": "test_dataset",
+      "dataset_type": "sr",
+      "dataroot_H": "testsets/set12",
+      "dataroot_L": "testsets/set12_valid_lq_x2_lr",
+      "phase": "test",
+      "scale": 2,
+      "n_channels": 1
+    }
+  },
+  "netG": {
+    "net_type": "swinir",
+    "upscale": 2,
+    "in_chans": 1,
+    "img_size": 48,
+    "window_size": 8,
+    "img_range": 1.0,
+    "depths": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "embed_dim": 180,
+    "num_heads": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "mlp_ratio": 2,
+    "upsampler": "pixelshuffle",
+    "resi_connection": "1conv",
+    "init_type": "default",
+    "scale": 2
+  },
+  "train": {
+    "G_lossfn_type": "l1",
+    "G_lossfn_weight": 1.0,
+    "E_decay": 0.999,
+    "G_optimizer_type": "adam",
+    "G_optimizer_lr": 0.0002,
+    "G_optimizer_wd": 0,
+    "G_optimizer_clipgrad": null,
+    "G_optimizer_reuse": true,
+    "G_scheduler_type": "MultiStepLR",
+    "G_scheduler_milestones": [
+      250000,
+      400000,
+      450000,
+      475000,
+      500000
+    ],
+    "G_scheduler_gamma": 0.5,
+    "G_regularizer_orthstep": null,
+    "G_regularizer_clipstep": null,
+    "G_param_strict": true,
+    "E_param_strict": true,
+    "checkpoint_test": 5000,
+    "checkpoint_save": 5000,
+    "checkpoint_print": 200,
+    "F_feature_layer": 34,
+    "F_weights": 1.0,
+    "F_lossfn_type": "l1",
+    "F_use_input_norm": true,
+    "F_use_range_norm": false
+  },
+  "opt_path": ".\\options\\swinir\\train_swinir_sr_classical.json",
+  "is_train": true,
+  "merge_bn": false,
+  "merge_bn_startpoint": -1,
+  "find_unused_parameters": true,
+  "num_gpu": 1,
+  "rank": 0,
+  "world_size": 1
+}

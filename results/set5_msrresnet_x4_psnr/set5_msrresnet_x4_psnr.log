@@ -1,0 +1,44 @@
+23-06-12 22:49:14.601 : Model path: model_zoo\msrresnet_x4_psnr.pth
+23-06-12 22:49:14.602 : Params number: 1517571
+23-06-12 22:49:14.605 : model_name:msrresnet_x4_psnr, image sigma:0
+23-06-12 22:49:14.606 : testsets\set5
+23-06-12 22:49:16.930 : img_001.png - PSNR: 32.25 dB; SSIM: 0.8690.
+23-06-12 22:49:17.035 : img_002.png - PSNR: 32.91 dB; SSIM: 0.9274.
+23-06-12 22:49:17.098 : img_003.png - PSNR: 27.20 dB; SSIM: 0.9069.
+23-06-12 22:49:17.163 : img_004.png - PSNR: 29.95 dB; SSIM: 0.7206.
+23-06-12 22:49:17.218 : img_005.png - PSNR: 29.17 dB; SSIM: 0.9032.
+23-06-12 22:49:17.232 : Average PSNR/SSIM(RGB) - set5_msrresnet_x4_psnr - x4 --PSNR: 30.30 dB; SSIM: 0.8654
+23-06-12 22:49:17.234 : Average PSNR/SSIM( Y ) - set5_msrresnet_x4_psnr - x4 - PSNR: 32.21 dB; SSIM: 0.8948
+23-06-12 22:51:27.398 : Model path: model_zoo\msrresnet_x4_psnr.pth
+23-06-12 22:51:27.399 : Params number: 1517571
+23-06-12 22:51:27.403 : model_name:msrresnet_x4_psnr, image sigma:0
+23-06-12 22:51:27.408 : testsets\set5
+23-06-12 22:51:29.661 : img_001.png - PSNR: 32.25 dB; SSIM: 0.8690.
+23-06-12 22:51:29.760 : img_002.png - PSNR: 32.91 dB; SSIM: 0.9274.
+23-06-12 22:51:29.817 : img_003.png - PSNR: 27.20 dB; SSIM: 0.9069.
+23-06-12 22:51:29.874 : img_004.png - PSNR: 29.95 dB; SSIM: 0.7206.
+23-06-12 22:51:29.920 : img_005.png - PSNR: 29.17 dB; SSIM: 0.9032.
+23-06-12 22:51:29.932 : Average PSNR/SSIM(RGB) - set5_msrresnet_x4_psnr - x4 --PSNR: 30.30 dB; SSIM: 0.8654
+23-06-12 22:51:29.933 : Average PSNR/SSIM( Y ) - set5_msrresnet_x4_psnr - x4 - PSNR: 32.21 dB; SSIM: 0.8948
+23-06-12 22:55:23.929 : Model path: model_zoo\msrresnet_x4_psnr.pth
+23-06-12 22:55:23.930 : Params number: 1517571
+23-06-12 22:55:23.931 : model_name:msrresnet_x4_psnr, image sigma:0
+23-06-12 22:55:23.932 : testsets\set5
+23-06-12 22:55:26.206 : img_001.png - PSNR: 32.25 dB; SSIM: 0.8690.
+23-06-12 22:55:26.310 : img_002.png - PSNR: 32.91 dB; SSIM: 0.9274.
+23-06-12 22:55:26.374 : img_003.png - PSNR: 27.20 dB; SSIM: 0.9069.
+23-06-12 22:55:26.431 : img_004.png - PSNR: 29.95 dB; SSIM: 0.7206.
+23-06-12 22:55:26.478 : img_005.png - PSNR: 29.17 dB; SSIM: 0.9032.
+23-06-12 22:55:26.489 : Average PSNR/SSIM(RGB) - set5_msrresnet_x4_psnr - x4 --PSNR: 30.30 dB; SSIM: 0.8654
+23-06-12 22:55:26.491 : Average PSNR/SSIM( Y ) - set5_msrresnet_x4_psnr - x4 - PSNR: 32.21 dB; SSIM: 0.8948
+23-06-14 09:59:54.561 : Model path: model_zoo\msrresnet_x4_psnr.pth
+23-06-14 09:59:54.564 : Params number: 1517571
+23-06-14 09:59:54.566 : model_name:msrresnet_x4_psnr, image sigma:0
+23-06-14 09:59:54.567 : testsets\set5
+23-06-14 10:00:00.105 : img_001.png - PSNR: 32.25 dB; SSIM: 0.8690.
+23-06-14 10:00:00.233 : img_002.png - PSNR: 32.91 dB; SSIM: 0.9274.
+23-06-14 10:08:21.392 : img_003.png - PSNR: 27.20 dB; SSIM: 0.9069.
+23-06-14 10:19:07.621 : img_004.png - PSNR: 29.95 dB; SSIM: 0.7206.
+23-06-14 10:20:47.914 : img_005.png - PSNR: 29.17 dB; SSIM: 0.9032.
+23-06-14 10:20:47.926 : Average PSNR/SSIM(RGB) - set5_msrresnet_x4_psnr - x4 --PSNR: 30.30 dB; SSIM: 0.8654
+23-06-14 10:20:47.927 : Average PSNR/SSIM( Y ) - set5_msrresnet_x4_psnr - x4 - PSNR: 32.21 dB; SSIM: 0.8948
