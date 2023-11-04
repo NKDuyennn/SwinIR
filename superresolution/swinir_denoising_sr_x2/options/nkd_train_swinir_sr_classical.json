@@ -9,13 +9,13 @@
     "n_channels": 1,
     "path": {
       "root": "superresolution",
-      "pretrained_netG": null,
-      "pretrained_netE": null,
+      "pretrained_netG": "/kaggle/input/models/15000_G.pth",
+      "pretrained_netE": "/kaggle/input/models/15000_E.pth",
       "task": "superresolution\\swinir_denoising_sr_x2",
       "log": "superresolution\\swinir_denoising_sr_x2",
       "options": "superresolution\\swinir_denoising_sr_x2\\options",
-      "models": "superresolution\\swinir_denoising_sr_x2\\models_nkd",
-      "images": "superresolution\\swinir_denoising_sr_x2\\images_nkd",
+      "models": "superresolution\\swinir_denoising_sr_x2\\models",
+      "images": "superresolution\\swinir_denoising_sr_x2\\images",
       "pretrained_optimizerG": null
     },
     "datasets": {
