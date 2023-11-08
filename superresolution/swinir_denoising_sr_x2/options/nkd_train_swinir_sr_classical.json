@@ -9,8 +9,8 @@
     "n_channels": 1,
     "path": {
       "root": "superresolution",
-      "pretrained_netG": NULL,
-      "pretrained_netE": NULL,
+      "pretrained_netG": null,
+      "pretrained_netE": null,
       "task": "superresolution\\swinir_denoising_sr_x2",
       "log": "superresolution\\swinir_denoising_sr_x2",
       "options": "superresolution\\swinir_denoising_sr_x2\\options",
