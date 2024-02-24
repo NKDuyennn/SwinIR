@@ -35,8 +35,8 @@
       "test": {
         "name": "test_dataset",
         "dataset_type": "sr",
-        "dataroot_H": "/kaggle/input/data-sets/datasets/testsets/Set5/GTmod12",
-        "dataroot_L": "/kaggle/input/data-sets/datasets/testsets/Set5/LRx2",
+        "dataroot_H": "/kaggle/input/test144/Set5/GTmod12",
+        "dataroot_L": "/kaggle/input/test144/Set5/LRx2",
         "phase": "test",
         "scale": 2,
         "n_channels": 1
