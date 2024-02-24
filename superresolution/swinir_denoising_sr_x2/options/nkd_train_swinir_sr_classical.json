@@ -22,8 +22,8 @@
       "train": {
         "name": "train_dataset",
         "dataset_type": "sr",
-        "dataroot_H": "/kaggle/input/data-sets/datasets/trainsets/gt_train",
-        "dataroot_L": "/kaggle/input/data-sets/datasets/trainsets/lr_train",
+        "dataroot_H": "/kaggle/input/data256/data_256_duyen/gt_train_256",
+        "dataroot_L": "/kaggle/input/data256/data_256_duyen/lr_train_128",
         "H_size": 256,
         "dataloader_shuffle": true,
         "dataloader_num_workers": 12,
@@ -103,7 +103,7 @@
       "F_use_input_norm": true,
       "F_use_range_norm": false
     },
-    "opt_path": "options\\swinir\\train_swinir_sr_classical.json",
+    "opt_path": "options\\swinir\\nkd_train_swinir_sr_classical.json",
     "is_train": true,
     "merge_bn": false,
     "merge_bn_startpoint": -1,
