@@ -9,14 +9,14 @@
     "n_channels": 1,
     "path": {
       "root": "superresolution",
-      "pretrained_netG": null,
-      "pretrained_netE": null,
+      "pretrained_netG": "/kaggle/input/model3/45000_G.pth",
+      "pretrained_netE": "/kaggle/input/model3/45000_E.pth",
       "task": "superresolution\\swinir_denoising_sr_x2",
       "log": "superresolution\\swinir_denoising_sr_x2",
       "options": "superresolution\\swinir_denoising_sr_x2\\options",
       "models": "superresolution\\swinir_denoising_sr_x2\\models",
       "images": "superresolution\\swinir_denoising_sr_x2\\images",
-      "pretrained_optimizerG": null
+      "pretrained_optimizerG": "/kaggle/input/model3/45000_optimizerG.pth"
     },
     "datasets": {
       "train": {
@@ -35,8 +35,8 @@
       "test": {
         "name": "test_dataset",
         "dataset_type": "sr",
-        "dataroot_H": "/kaggle/input/test144/Set5/GTmod12",
-        "dataroot_L": "/kaggle/input/test144/Set5/LRx2",
+        "dataroot_H": "/kaggle/input/bsd100/GroundTruth_Gray/image_train_grayscale",
+        "dataroot_L": "/kaggle/input/bsd100/lr_images/lr_images",
         "phase": "test",
         "scale": 2,
         "n_channels": 1
