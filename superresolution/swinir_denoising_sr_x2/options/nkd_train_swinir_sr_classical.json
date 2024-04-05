@@ -35,8 +35,8 @@
       "test": {
         "name": "test_dataset",
         "dataset_type": "sr",
-        "dataroot_H": "/kaggle/input/bsd100/GroundTruth_Gray/image_train_grayscale",
-        "dataroot_L": "/kaggle/input/bsd100/lr_images/lr_images",
+        "dataroot_H": "/kaggle/input/testbsd100/GT (1)/image_train_grayscale",
+        "dataroot_L": "/kaggle/input/testbsd100/lr_images (1)/lr_images",
         "phase": "test",
         "scale": 2,
         "n_channels": 1
