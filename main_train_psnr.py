@@ -167,7 +167,7 @@ def main(json_path='/kaggle/working/SwinIR/superresolution/swinir_denoising_sr_x
     all_psnr_res = []
     all_ssim_res = []
     all_ber_res = []
-    for epoch in range(10):  # keep running 800 epoch
+    for epoch in range(50):  # keep running 800 epoch
         for i, train_data in enumerate(train_loader):
 
             current_step += 1
