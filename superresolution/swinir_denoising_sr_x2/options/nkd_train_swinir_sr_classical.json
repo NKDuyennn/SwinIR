@@ -27,7 +27,7 @@
         "H_size": 256,
         "dataloader_shuffle": true,
         "dataloader_num_workers": 12,
-        "dataloader_batch_size": 32,
+        "dataloader_batch_size": 16,
         "phase": "train",
         "scale": 2,
         "n_channels": 1
